@@ -1,0 +1,2786 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: admin/txt-admin.php:1398 admin/txt-admin.php:1401 admin/txt-admin.php:1482
+#: admin/txt-admin.php:1485 admin/txt-admin.php:1522 admin/txt-admin.php:1526
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-27 10:30-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: staff-list.php:60 staff-list.php:65
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: admin/admin-scripts.php:56 admin/admin-scripts.php:57
+#: admin/admin-scripts.php:70 admin/admin-scripts.php:71
+msgid "Choose Image"
+msgstr ""
+
+#: admin/txt-admin.php:9
+msgid "Help"
+msgstr ""
+
+#: admin/txt-admin.php:12
+msgid "Images"
+msgstr ""
+
+#: admin/txt-admin.php:18
+msgid "Uninstall"
+msgstr ""
+
+#: admin/txt-admin.php:21
+msgid "Yes"
+msgstr ""
+
+#: admin/txt-admin.php:24
+msgid "No"
+msgstr ""
+
+#: admin/txt-admin.php:27
+msgid "Default"
+msgstr ""
+
+#: admin/txt-admin.php:30
+msgid "License"
+msgstr ""
+
+#: admin/txt-admin.php:33
+msgid "Options"
+msgstr ""
+
+#: admin/txt-admin.php:36
+msgid "Font Size"
+msgstr ""
+
+#: admin/txt-admin.php:40
+msgid "Documentation"
+msgstr ""
+
+#: admin/txt-admin.php:43
+msgid "Admin"
+msgstr ""
+
+#: admin/txt-admin.php:46
+msgid "Layout"
+msgstr ""
+
+#: admin/txt-admin.php:49
+msgid "Width"
+msgstr ""
+
+#: admin/txt-admin.php:52
+msgid "Top Margin"
+msgstr ""
+
+#: admin/txt-admin.php:55
+msgid "Left Margin"
+msgstr ""
+
+#: admin/txt-admin.php:58
+msgid "Template Name"
+msgstr ""
+
+#: admin/txt-admin.php:61
+msgid "Template to Convert"
+msgstr ""
+
+#: admin/txt-admin.php:68 admin/txt-admin.php:250
+msgid "Custom"
+msgstr ""
+
+#: admin/txt-admin.php:71
+msgid "Activate Key"
+msgstr ""
+
+#: admin/txt-admin.php:77
+msgid "Add Defaults"
+msgstr ""
+
+#: admin/txt-admin.php:80
+msgid "Support"
+msgstr ""
+
+#: admin/txt-admin.php:83
+msgid "Caption"
+msgstr ""
+
+#: admin/txt-admin.php:86
+msgid "License & Help"
+msgstr ""
+
+#: admin/txt-admin.php:89 to-do/script-loader.php:848
+msgid "Image"
+msgstr ""
+
+#: admin/txt-admin.php:92
+msgid "Description"
+msgstr ""
+
+#: admin/txt-admin.php:95
+msgid "Title"
+msgstr ""
+
+#: admin/txt-admin.php:99
+msgid "Template Converter"
+msgstr ""
+
+#: admin/txt-admin.php:102
+msgid "Item Inner Container"
+msgstr ""
+
+#: admin/txt-admin.php:105
+msgid "Error"
+msgstr ""
+
+#: admin/txt-admin.php:108
+msgid "Default Template"
+msgstr ""
+
+#: admin/txt-admin.php:111
+msgid "Save Changes"
+msgstr ""
+
+#: admin/txt-admin.php:114
+msgid "Image ID"
+msgstr ""
+
+#: admin/txt-admin.php:117
+msgid "Pagination"
+msgstr ""
+
+#: admin/txt-admin.php:120
+msgid "Records per Page"
+msgstr ""
+
+#: admin/txt-admin.php:126
+msgid "Custom Text"
+msgstr ""
+
+#: admin/txt-admin.php:130
+msgid "Border"
+msgstr ""
+
+#: admin/txt-admin.php:133
+msgid "Underline"
+msgstr ""
+
+#: admin/txt-admin.php:136
+msgid "Highlight"
+msgstr ""
+
+#: admin/txt-admin.php:139
+msgid "Text"
+msgstr ""
+
+#: admin/txt-admin.php:142 to-do/script-loader.php:966
+msgid "None"
+msgstr ""
+
+#: admin/txt-admin.php:145
+msgid "Items"
+msgstr ""
+
+#: admin/txt-admin.php:148
+msgid "Menu Items Left/Right Margins"
+msgstr ""
+
+#: admin/txt-admin.php:151
+msgid "Font"
+msgstr ""
+
+#: admin/txt-admin.php:154
+msgid "Container Width"
+msgstr ""
+
+#: admin/txt-admin.php:157
+msgid "Center Items"
+msgstr ""
+
+#: admin/txt-admin.php:161
+msgid "Menu Items Page"
+msgstr ""
+
+#: admin/txt-admin.php:164
+msgid "Number of Columns"
+msgstr ""
+
+#: admin/txt-admin.php:167
+msgid "Social Icons"
+msgstr ""
+
+#: admin/txt-admin.php:170
+msgid "Show Links"
+msgstr ""
+
+#: admin/txt-admin.php:173
+msgid "Social Media Links (Icons)"
+msgstr ""
+
+#: admin/txt-admin.php:176
+msgid "Icons"
+msgstr ""
+
+#: admin/txt-admin.php:179
+msgid "Utilities"
+msgstr ""
+
+#: admin/txt-admin.php:192
+msgid "Manual"
+msgstr ""
+
+#: admin/txt-admin.php:198
+msgid "Custom Link"
+msgstr ""
+
+#: admin/txt-admin.php:207
+msgid "Filter"
+msgstr ""
+
+#: admin/txt-admin.php:210
+msgid "Filter Type"
+msgstr ""
+
+#: admin/txt-admin.php:213
+msgid "AZ Filter"
+msgstr ""
+
+#: admin/txt-admin.php:216
+msgid "Staff Page"
+msgstr ""
+
+#: admin/txt-admin.php:219
+msgid "Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:223
+msgid "Staff Page + Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:226
+msgid "Hide/Delete"
+msgstr ""
+
+#: admin/txt-admin.php:229
+msgid "Show On"
+msgstr ""
+
+#: admin/txt-admin.php:235
+msgid "Text Link to Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:238
+msgid "Left-Right Margins"
+msgstr ""
+
+#: admin/txt-admin.php:241
+msgid "Hide"
+msgstr ""
+
+#: admin/txt-admin.php:244
+msgid "Page Title"
+msgstr ""
+
+#: admin/txt-admin.php:247
+msgid "Quick Start"
+msgstr ""
+
+#: admin/txt-admin.php:254
+msgid "Create a Staff Template and 3 Staff Member records."
+msgstr ""
+
+#: admin/txt-admin.php:257
+msgid "Text Style"
+msgstr ""
+
+#: admin/txt-admin.php:263
+msgid "Center Container"
+msgstr ""
+
+#: admin/txt-admin.php:266
+msgid "Center Image Horizontally"
+msgstr ""
+
+#: admin/txt-admin.php:269
+msgid "Default: 1%"
+msgstr ""
+
+#: admin/txt-admin.php:275
+msgid "When images start loading."
+msgstr ""
+
+#: admin/txt-admin.php:278
+msgid "Menu Container"
+msgstr ""
+
+#: admin/txt-admin.php:281
+msgid "Bottom Margin"
+msgstr ""
+
+#: admin/txt-admin.php:285
+msgid "Menu Item"
+msgstr ""
+
+#: admin/txt-admin.php:288
+msgid "Font Color"
+msgstr ""
+
+#: admin/txt-admin.php:291
+msgid "Active Item Decoration"
+msgstr ""
+
+#: admin/txt-admin.php:294
+msgid "Uppercase"
+msgstr ""
+
+#: admin/txt-admin.php:297
+msgid "Convert Template to a New Layout."
+msgstr ""
+
+#: admin/txt-admin.php:300
+msgid "Label - All Records"
+msgstr ""
+
+#: admin/txt-admin.php:303
+msgid "Category Slugs"
+msgstr ""
+
+#: admin/txt-admin.php:306
+msgid "Gray"
+msgstr ""
+
+#: admin/txt-admin.php:309
+msgid "Dark Gray"
+msgstr ""
+
+#: admin/txt-admin.php:312
+msgid "Black"
+msgstr ""
+
+#: admin/txt-admin.php:319
+msgid ""
+"Valid data entry formats for Width or Margins: 15, 15px, 15%, 1em. Blank (no "
+"entry) = default value."
+msgstr ""
+
+#: admin/txt-admin.php:322
+msgid "Default: 100%."
+msgstr ""
+
+#: admin/txt-admin.php:325
+msgid "Default: 100%, of the parent container."
+msgstr ""
+
+#: admin/txt-admin.php:328
+msgid "Default: 0 (zero pixels)."
+msgstr ""
+
+#: admin/txt-admin.php:331
+msgid "Blank (no entry) = default value."
+msgstr ""
+
+#: admin/txt-admin.php:335
+msgid "Converts one template layout to another layout."
+msgstr ""
+
+#: admin/txt-admin.php:338
+msgid "Examples: <strong>All, Any</strong>"
+msgstr ""
+
+#: admin/txt-admin.php:341
+msgid "Category Page URL"
+msgstr ""
+
+#: admin/txt-admin.php:347
+msgid "Add category slugs. Category names will show up as item names."
+msgstr ""
+
+#: admin/txt-admin.php:350
+msgid "Shortcode Parameter"
+msgstr ""
+
+#: admin/txt-admin.php:353
+msgid "Image left, text right."
+msgstr ""
+
+#: admin/txt-admin.php:356
+msgid ""
+"Comma delimited list of single characters. Displayed as items and used as "
+"filters. Example: A,B,C,D,E,F,G"
+msgstr ""
+
+#: admin/txt-admin.php:359
+msgid "Grid Container"
+msgstr ""
+
+#: admin/txt-admin.php:362
+msgid "Container Left-Right Margins"
+msgstr ""
+
+#: admin/txt-admin.php:366
+msgid "Container Bottom Margin"
+msgstr ""
+
+#: admin/txt-admin.php:369
+msgid "Part"
+msgstr ""
+
+#: admin/txt-admin.php:372
+msgid "Order - Staff"
+msgstr ""
+
+#: admin/txt-admin.php:375
+msgid "Order - Single"
+msgstr ""
+
+#: admin/txt-admin.php:378
+msgid "Staff Page - Prefix/Suffix"
+msgstr ""
+
+#: admin/txt-admin.php:381
+msgid "Field Options"
+msgstr ""
+
+#: admin/txt-admin.php:384
+msgid ""
+"Field parts are separated with a space. Use suffix option to add commas or "
+"other separators."
+msgstr ""
+
+#: admin/txt-admin.php:387
+msgid "Example: <strong>Profile, Bio, Detail, More...</strong>"
+msgstr ""
+
+#: admin/txt-admin.php:390
+msgid "Multipart Field"
+msgstr ""
+
+#: admin/txt-admin.php:393
+msgid "Field to Search"
+msgstr ""
+
+#: admin/txt-admin.php:397
+msgid "Field Style - Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:400
+msgid "Labels & Filters"
+msgstr ""
+
+#: admin/txt-admin.php:403
+msgid "Control Size"
+msgstr ""
+
+#: admin/txt-admin.php:406
+msgid "What field to use for a search."
+msgstr ""
+
+#: admin/txt-admin.php:409
+msgid "Hide = Keep data, don't display field on the front end."
+msgstr ""
+
+#: admin/txt-admin.php:412
+msgid "After all images are loaded."
+msgstr ""
+
+#: admin/txt-admin.php:415
+msgid "Add Script: Images Loaded"
+msgstr ""
+
+#: admin/txt-admin.php:418
+msgid "Show All as a last item."
+msgstr ""
+
+#: admin/txt-admin.php:421
+msgid "Random"
+msgstr ""
+
+#: admin/txt-admin.php:424
+msgid "Field Style - Staff Page"
+msgstr ""
+
+#: admin/txt-admin.php:428
+msgid "Field Location on a Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:431
+msgid "Text Link Style"
+msgstr ""
+
+#: admin/txt-admin.php:434
+msgid "Links to Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:437
+msgid "Open in a new tab or window."
+msgstr ""
+
+#: admin/txt-admin.php:440
+msgid "Two columns. Image left, text right."
+msgstr ""
+
+#: admin/txt-admin.php:443
+msgid "Middle Section"
+msgstr ""
+
+#: admin/txt-admin.php:449
+msgid "Show Link"
+msgstr ""
+
+#: admin/txt-admin.php:452
+msgid "Disregard if field is not selected to show up on a Single Page."
+msgstr ""
+
+#: admin/txt-admin.php:455
+msgid "Color Schema"
+msgstr ""
+
+#: admin/txt-admin.php:462
+msgid "Hide Filter"
+msgstr ""
+
+#: admin/txt-admin.php:465
+msgid "Categories"
+msgstr ""
+
+#: admin/txt-admin.php:468
+msgid "Hide Record (do not show up at the front end)."
+msgstr ""
+
+#: admin/txt-admin.php:471
+msgid "Large"
+msgstr ""
+
+#: admin/txt-admin.php:474
+msgid "Medium"
+msgstr ""
+
+#: admin/txt-admin.php:477
+msgid "Small"
+msgstr ""
+
+#: admin/txt-admin.php:480
+msgid "Extra Small"
+msgstr ""
+
+#: admin/txt-admin.php:483
+msgid "Left"
+msgstr ""
+
+#: admin/txt-admin.php:486
+msgid "Center"
+msgstr ""
+
+#: admin/txt-admin.php:490
+msgid "Right"
+msgstr ""
+
+#: admin/txt-admin.php:493
+msgid "Number of Page Links"
+msgstr ""
+
+#: admin/txt-admin.php:496
+msgid "Help Text"
+msgstr ""
+
+#: admin/txt-admin.php:499
+msgid "Alignment"
+msgstr ""
+
+#: admin/txt-admin.php:502
+msgid "Top"
+msgstr ""
+
+#: admin/txt-admin.php:505
+msgid "Bottom"
+msgstr ""
+
+#: admin/txt-admin.php:508
+msgid "Location"
+msgstr ""
+
+#: admin/txt-admin.php:511
+msgid "Blue"
+msgstr ""
+
+#: admin/txt-admin.php:514
+msgid "No Records Found Message"
+msgstr ""
+
+#: admin/txt-admin.php:517
+msgid "Decolorize"
+msgstr ""
+
+#: admin/txt-admin.php:524
+msgid "Delete Filter"
+msgstr ""
+
+#: admin/txt-admin.php:527
+msgid "Image Placeholders"
+msgstr ""
+
+#: admin/txt-admin.php:530
+msgid "Default Placeholder"
+msgstr ""
+
+#: admin/txt-admin.php:533
+msgid "Single Field Search"
+msgstr ""
+
+#: admin/txt-admin.php:536
+msgid "Circular Image"
+msgstr ""
+
+#: admin/txt-admin.php:539
+msgid "Records are filtered by the first letter of the search field content."
+msgstr ""
+
+#: admin/txt-admin.php:542
+msgid "Custom Placeholders"
+msgstr ""
+
+#: admin/txt-admin.php:545
+msgid "Labels"
+msgstr ""
+
+#: admin/txt-admin.php:548
+msgid "Property Name"
+msgstr ""
+
+#: admin/txt-admin.php:552
+msgid "Structured Data"
+msgstr ""
+
+#: admin/txt-admin.php:555
+msgid "Type Name"
+msgstr ""
+
+#: admin/txt-admin.php:561
+msgid "Value"
+msgstr ""
+
+#: admin/txt-admin.php:564
+msgid "Embeded Item"
+msgstr ""
+
+#: admin/txt-admin.php:567
+msgid "Linked Fields"
+msgstr ""
+
+#: admin/txt-admin.php:570
+msgid "ALT Tag"
+msgstr ""
+
+#: admin/txt-admin.php:573
+msgid "Shortcode options."
+msgstr ""
+
+#: admin/txt-admin.php:576
+msgid "Field Parts Order"
+msgstr ""
+
+#: admin/txt-admin.php:579
+msgid "Sort Text field"
+msgstr ""
+
+#: admin/txt-admin.php:583
+msgid "Copy from Single Line Text field"
+msgstr ""
+
+#: admin/txt-admin.php:586
+msgid "Copy from Name - Multipart Field"
+msgstr ""
+
+#: admin/txt-admin.php:592
+msgid "List Items"
+msgstr ""
+
+#: admin/txt-admin.php:595
+msgid "Menu Items"
+msgstr ""
+
+#: admin/txt-admin.php:598
+msgid "Menu Label"
+msgstr ""
+
+#: admin/txt-admin.php:601
+msgid "How to add menu to a page."
+msgstr ""
+
+#: admin/txt-admin.php:604
+msgid "Image Left/Right Margins"
+msgstr ""
+
+#: admin/txt-admin.php:607
+msgid "Link Attributes"
+msgstr ""
+
+#: admin/txt-admin.php:610
+msgid "Link onClick JS"
+msgstr ""
+
+#: admin/txt-admin.php:614
+msgid ""
+"Email link requires two input fields: <b>Text</b>  and <b>Email Adress</b>. "
+"The Text is the visible part displayed on the page."
+msgstr ""
+
+#: admin/txt-admin.php:620
+msgid "Containers"
+msgstr ""
+
+#: admin/txt-admin.php:623
+msgid "Default: Social Media Links (Icons)"
+msgstr ""
+
+#: admin/txt-admin.php:626
+msgid "Templates"
+msgstr ""
+
+#: admin/txt-admin.php:629
+msgid "Field Label (Link Text)"
+msgstr ""
+
+#: admin/txt-admin.php:635
+msgid "This template has no social links activated."
+msgstr ""
+
+#: admin/txt-admin.php:638
+msgid "Field Label"
+msgstr ""
+
+#: admin/txt-admin.php:641
+msgid "Field Description"
+msgstr ""
+
+#: admin/txt-admin.php:645
+msgid "Single Staff Member page is optional."
+msgstr ""
+
+#: admin/txt-admin.php:648
+msgid "Field Container Style"
+msgstr ""
+
+#: admin/txt-admin.php:651
+msgid ""
+"What type of content the field will contain: text, hyperlink, email etc."
+msgstr ""
+
+#: admin/txt-admin.php:654
+msgid "Template Layout"
+msgstr ""
+
+#: admin/txt-admin.php:657
+msgid "Template has no fields."
+msgstr ""
+
+#: admin/txt-admin.php:663
+msgid "Custom Icons"
+msgstr ""
+
+#: admin/txt-admin.php:669
+msgid "Darken"
+msgstr ""
+
+#: admin/txt-admin.php:672
+msgid "Enter the URL of social media accounts."
+msgstr ""
+
+#: admin/txt-admin.php:676
+msgid "Image top, text bottom."
+msgstr ""
+
+#: admin/txt-admin.php:679
+msgid "Supports HTML tags."
+msgstr ""
+
+#: admin/txt-admin.php:682
+msgid "Field Type"
+msgstr ""
+
+#: admin/txt-admin.php:685
+msgid "To override the default styles."
+msgstr ""
+
+#: admin/txt-admin.php:688
+msgid ""
+"The CSS style you would like to use in order to override the default styles "
+"for this field."
+msgstr ""
+
+#: admin/txt-admin.php:691
+msgid "Lighten"
+msgstr ""
+
+#: admin/txt-admin.php:694
+msgid "Static Label Style"
+msgstr ""
+
+#: admin/txt-admin.php:697
+msgid "Text displayed on top of the data entry form."
+msgstr ""
+
+#: admin/txt-admin.php:700
+msgid "Staff Images"
+msgstr ""
+
+#: admin/txt-admin.php:703
+msgid "Static Label + Hyperlink"
+msgstr ""
+
+#: admin/txt-admin.php:707
+msgid ""
+"Hyperlink requires two fields: <b>Text</b>  and <b>URL</b>. Text is the "
+"visible part. The URL specifies the destination address of the link."
+msgstr ""
+
+#: admin/txt-admin.php:713
+msgid "Person name or any other text. Example: <b>john-smith</b>. No spaces!"
+msgstr ""
+
+#: admin/txt-admin.php:716
+msgid "Select on what page type the field will show up."
+msgstr ""
+
+#: admin/txt-admin.php:722
+msgid "Set up how and what data is displayed on Staff and Single Staff pages."
+msgstr ""
+
+#: admin/txt-admin.php:725
+msgid "Enter an icon name. It has to match exactly the custom icon name."
+msgstr ""
+
+#: admin/txt-admin.php:728
+msgid "Drop-Down List"
+msgstr ""
+
+#: admin/txt-admin.php:731
+msgid "Icons Container Style"
+msgstr ""
+
+#: admin/txt-admin.php:734
+msgid "Form Title"
+msgstr ""
+
+#: admin/txt-admin.php:738
+msgid "Category Filter"
+msgstr ""
+
+#: admin/txt-admin.php:741
+msgid "Create Records"
+msgstr ""
+
+#: admin/txt-admin.php:744
+msgid "How to publish staff page."
+msgstr ""
+
+#: admin/txt-admin.php:747
+msgid "Tilt"
+msgstr ""
+
+#: admin/txt-admin.php:750
+msgid "Select Template"
+msgstr ""
+
+#: admin/txt-admin.php:753
+msgid "Field Description (Link Text)"
+msgstr ""
+
+#: admin/txt-admin.php:756
+msgid "Drop Shadow"
+msgstr ""
+
+#: admin/txt-admin.php:759
+msgid "Default = your theme's font."
+msgstr ""
+
+#: admin/txt-admin.php:762
+msgid "Visual Assistance"
+msgstr ""
+
+#: admin/txt-admin.php:765
+msgid "Show a wireframe to assist with laying out content."
+msgstr ""
+
+#: admin/txt-admin.php:769
+msgid "Item Columns - Width"
+msgstr ""
+
+#: admin/txt-admin.php:772
+msgid "Text Container"
+msgstr ""
+
+#: admin/txt-admin.php:775
+msgid "Default: <b>abcfslPadLPc5</b> (padding left 5%)"
+msgstr ""
+
+#: admin/txt-admin.php:778
+msgid "Left/Right Panels - Width"
+msgstr ""
+
+#: admin/txt-admin.php:781
+msgid "Default: Padding top 5%."
+msgstr ""
+
+#: admin/txt-admin.php:784
+msgid "Simply drag the items up or down and they will be saved in that order."
+msgstr ""
+
+#: admin/txt-admin.php:790
+msgid ""
+"Optional. Provide the user some direction on how the field should be filled "
+"out."
+msgstr ""
+
+#: admin/txt-admin.php:793
+msgid "Hyperlink Style"
+msgstr ""
+
+#: admin/txt-admin.php:796
+msgid "Link Text"
+msgstr ""
+
+#: admin/txt-admin.php:800
+msgid ""
+"Optional. Default: 100%. Valid formats: px, %. Example: 15px, 15%. No entry "
+"= default value."
+msgstr ""
+
+#: admin/txt-admin.php:803
+msgid "Image Link"
+msgstr ""
+
+#: admin/txt-admin.php:806
+msgid ""
+"Global settings (Template - Single Page Options). Custom URL can overwrite "
+"some of the global settings"
+msgstr ""
+
+#: admin/txt-admin.php:809
+msgid "Select Image"
+msgstr ""
+
+#: admin/txt-admin.php:812
+msgid "Text to display as link text."
+msgstr ""
+
+#: admin/txt-admin.php:815
+msgid "Animations on Hover"
+msgstr ""
+
+#: admin/txt-admin.php:818
+msgid ""
+"No list items found. There maybe no items or none of the existing items is "
+"linked to this template."
+msgstr ""
+
+#: admin/txt-admin.php:821
+msgid "Swiching templates may cause loss of data."
+msgstr ""
+
+#: admin/txt-admin.php:824
+msgid "Staff Member Data"
+msgstr ""
+
+#: admin/txt-admin.php:827
+msgid "First Item Value"
+msgstr ""
+
+#: admin/txt-admin.php:831
+msgid "Optional."
+msgstr ""
+
+#: admin/txt-admin.php:834
+msgid "Single Page URL"
+msgstr ""
+
+#: admin/txt-admin.php:837
+msgid "First Item Text"
+msgstr ""
+
+#: admin/txt-admin.php:840
+msgid "Overlay"
+msgstr ""
+
+#: admin/txt-admin.php:846
+msgid "Static Label"
+msgstr ""
+
+#: admin/txt-admin.php:852
+msgid "Filters Container"
+msgstr ""
+
+#: admin/txt-admin.php:855
+msgid "Text Container Width = Image Width"
+msgstr ""
+
+#: admin/txt-admin.php:858
+msgid "Field container HTML tag. Default = DIV."
+msgstr ""
+
+#: admin/txt-admin.php:865
+msgid "Staff Members are listed in alphabetical order by the Sort Text field."
+msgstr ""
+
+#: admin/txt-admin.php:868
+msgid ""
+"This is the field title (label) the user will see when filling out the form."
+msgstr ""
+
+#: admin/txt-admin.php:871
+msgid "Search Button"
+msgstr ""
+
+#: admin/txt-admin.php:874
+msgid ""
+"To use the same image for Staff Page and Single Page enter <span class="
+"\"abcflFontW700\">SP</span>."
+msgstr ""
+
+#: admin/txt-admin.php:877
+msgid "Top Section"
+msgstr ""
+
+#: admin/txt-admin.php:880
+msgid "Field Display Options"
+msgstr ""
+
+#: admin/txt-admin.php:883
+msgid "Field HTML Tag"
+msgstr ""
+
+#: admin/txt-admin.php:886
+msgid "Demo"
+msgstr ""
+
+#: admin/txt-admin.php:889
+msgid "Custom Inline Style"
+msgstr ""
+
+#: admin/txt-admin.php:896
+msgid "Field ID"
+msgstr ""
+
+#: admin/txt-admin.php:899
+msgid "How to add shortcode parameter to the shortcode."
+msgstr ""
+
+#: admin/txt-admin.php:902
+msgid "Displayed inline, next to the field value."
+msgstr ""
+
+#: admin/txt-admin.php:905
+msgid "Demo Records"
+msgstr ""
+
+#: admin/txt-admin.php:908
+msgid "To horizontally center container when width < 100%."
+msgstr ""
+
+#: admin/txt-admin.php:911
+msgid "Lock the field to prevent accidental changes."
+msgstr ""
+
+#: admin/txt-admin.php:914
+msgid "Field Locked. Editing disabled."
+msgstr ""
+
+#: admin/txt-admin.php:917
+msgid "All requred options have to be selected."
+msgstr ""
+
+#: admin/txt-admin.php:920
+msgid "Convert to ..."
+msgstr ""
+
+#: admin/txt-admin.php:924
+msgid "Field Label (Email Adress)"
+msgstr ""
+
+#: admin/txt-admin.php:927
+msgid "Item Container"
+msgstr ""
+
+#: admin/txt-admin.php:930
+msgid "Field Label (URL)"
+msgstr ""
+
+#: admin/txt-admin.php:933
+msgid "Single Page SEO Options"
+msgstr ""
+
+#: admin/txt-admin.php:936
+msgid "Menu"
+msgstr ""
+
+#: admin/txt-admin.php:939
+msgid "Getting Started"
+msgstr ""
+
+#: admin/txt-admin.php:942
+msgid "Label Text"
+msgstr ""
+
+#: admin/txt-admin.php:945
+msgid "Default: 40 pixels."
+msgstr ""
+
+#: admin/txt-admin.php:948
+msgid "Hide link to Single Page."
+msgstr ""
+
+#: admin/txt-admin.php:951
+msgid ""
+"Optional. Text container can span the width of the column or be limited to "
+"width of the image."
+msgstr ""
+
+#: admin/txt-admin.php:955
+msgid "Staff Page Image"
+msgstr ""
+
+#: admin/txt-admin.php:958
+msgid "Single Page Image"
+msgstr ""
+
+#: admin/txt-admin.php:961
+msgid "Image URL"
+msgstr ""
+
+#: admin/txt-admin.php:967
+msgid "The number of columns in a row."
+msgstr ""
+
+#: admin/txt-admin.php:970
+msgid "Bottom Section"
+msgstr ""
+
+#: admin/txt-admin.php:973
+msgid "Filter Controls"
+msgstr ""
+
+#: admin/txt-admin.php:976
+msgid "Field Description (URL)"
+msgstr ""
+
+#: admin/txt-admin.php:979
+msgid "Field Description (Email Address)"
+msgstr ""
+
+#: admin/txt-admin.php:982
+msgid "Input Field Labels"
+msgstr ""
+
+#: admin/txt-admin.php:986
+msgid "Add a New Field"
+msgstr ""
+
+#: admin/txt-admin.php:989
+msgid "Delete Field"
+msgstr ""
+
+#: admin/txt-admin.php:992
+msgid "Displays a single staff member."
+msgstr ""
+
+#: admin/txt-admin.php:995
+msgid "Custom CSS Class"
+msgstr ""
+
+#: admin/txt-admin.php:1001
+msgid "Single Page Shortcode"
+msgstr ""
+
+#: admin/txt-admin.php:1004
+msgid "How to create and publish single page."
+msgstr ""
+
+#: admin/txt-admin.php:1007
+msgid "You can't delete this template. It's used by one or more staff members."
+msgstr ""
+
+#: admin/txt-admin.php:1010
+msgid "Display email address as plain text."
+msgstr ""
+
+#: admin/txt-admin.php:1013
+msgid "How link Staff page to a Single Page."
+msgstr ""
+
+#: admin/txt-admin.php:1017
+msgid "Sort Text Field - Data Entry Options"
+msgstr ""
+
+#: admin/txt-admin.php:1020
+msgid "Manual entry"
+msgstr ""
+
+#: admin/txt-admin.php:1023
+msgid "Staff Order"
+msgstr ""
+
+#: admin/txt-admin.php:1026
+msgid "Update the shortcode (on staff page) after template conversion!"
+msgstr ""
+
+#: admin/txt-admin.php:1029
+msgid "Single Page - Prefix/Suffix"
+msgstr ""
+
+#: admin/txt-admin.php:1032
+msgid "Sort Option"
+msgstr ""
+
+#: admin/txt-admin.php:1035
+msgid "Field Display Order - Staff/Single Pages"
+msgstr ""
+
+#: admin/txt-admin.php:1038
+msgid "Email with Static Text"
+msgstr ""
+
+#: admin/txt-admin.php:1041
+msgid "Button Color"
+msgstr ""
+
+#: admin/txt-admin.php:1044
+msgid "Text to display as mailto hyperlink."
+msgstr ""
+
+#: admin/txt-admin.php:1048
+msgid "Group by categories."
+msgstr ""
+
+#: admin/txt-admin.php:1051
+msgid "Group by text."
+msgstr ""
+
+#: admin/txt-admin.php:1054
+msgid "Group by first letter A-Z."
+msgstr ""
+
+#: admin/txt-admin.php:1057
+msgid "Type of Grouping"
+msgstr ""
+
+#: admin/txt-admin.php:1075
+msgid "Staff Page Shortcode"
+msgstr ""
+
+#: admin/txt-admin.php:1079
+msgid "Staff Template"
+msgstr ""
+
+#: admin/txt-admin.php:1082
+msgid "Screen Min Width:"
+msgstr ""
+
+#: admin/txt-admin.php:1091
+msgid "Text 1"
+msgstr ""
+
+#: admin/txt-admin.php:1094
+msgid "Text 2"
+msgstr ""
+
+#: admin/txt-admin.php:1097
+msgid "Text 2 Top Margin"
+msgstr ""
+
+#: admin/txt-admin.php:1106
+msgid "Template"
+msgstr ""
+
+#: admin/txt-admin.php:1110
+msgid "Order"
+msgstr ""
+
+#: admin/txt-admin.php:1113
+msgid "Group Names"
+msgstr ""
+
+#: admin/txt-admin.php:1116
+msgid "Group Letters"
+msgstr ""
+
+#: admin/txt-admin.php:1119
+msgid "Field to group by."
+msgstr ""
+
+#: admin/txt-admin.php:1122
+msgid "Group Name Container"
+msgstr ""
+
+#: admin/txt-admin.php:1125
+msgid "Group Name"
+msgstr ""
+
+#: admin/txt-admin.php:1128
+msgid "Number of Dropdowns"
+msgstr ""
+
+#: admin/txt-admin.php:1131
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/txt-admin.php:1134
+msgid "Field Container"
+msgstr ""
+
+#: admin/txt-admin.php:1137
+msgid "Field Text"
+msgstr ""
+
+#: admin/txt-admin.php:1141
+msgid "Sort Ouput Alphabetically"
+msgstr ""
+
+#: admin/txt-admin.php:1144
+msgid "Locale"
+msgstr ""
+
+#: admin/txt-admin.php:1147
+msgid "Optional. Displayed inline, next to the field value."
+msgstr ""
+
+#: admin/txt-admin.php:1150
+msgid "How to add grouping to staff list page."
+msgstr ""
+
+#: admin/txt-admin.php:1153
+msgid "CSS class name(s) to override the default styles."
+msgstr ""
+
+#: admin/txt-admin.php:1159
+msgid "Checkbox Values"
+msgstr ""
+
+#: admin/txt-admin.php:1162
+msgid "Use the same image for Staff Page and Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:1165
+msgid "Add link to staff image (image hyperlink)."
+msgstr ""
+
+#: admin/txt-admin.php:1168
+msgid "Image Defaults"
+msgstr ""
+
+#: admin/txt-admin.php:1172
+msgid "Disable wpautop"
+msgstr ""
+
+#: admin/txt-admin.php:1175
+msgid "Phone + Static Label"
+msgstr ""
+
+#: admin/txt-admin.php:1178
+msgid "Field Label - Number to Dial (href)"
+msgstr ""
+
+#: admin/txt-admin.php:1181
+msgid "Field Label - Visible Text"
+msgstr ""
+
+#: admin/txt-admin.php:1184
+msgid "Post Title"
+msgstr ""
+
+#: admin/txt-admin.php:1187
+msgid "Months"
+msgstr ""
+
+#: admin/txt-admin.php:1190
+msgid "Database Version"
+msgstr ""
+
+#: admin/txt-admin.php:1193
+msgid "WordPress Version"
+msgstr ""
+
+#: admin/txt-admin.php:1196
+msgid "Month Names"
+msgstr ""
+
+#: admin/txt-admin.php:1199
+msgid "Why my single page is blank?"
+msgstr ""
+
+#: admin/txt-admin.php:1203
+msgid "Static Label + Date"
+msgstr ""
+
+#: admin/txt-admin.php:1206 admin/txt-admin.php:1237
+msgid "Image Container - Top Margin"
+msgstr ""
+
+#: admin/txt-admin.php:1209
+msgid "Image Caption - Font"
+msgstr ""
+
+#: admin/txt-admin.php:1212
+msgid "Image Caption - Top Margin"
+msgstr ""
+
+#: admin/txt-admin.php:1215
+msgid "Optional. Read only field. Provide some description."
+msgstr ""
+
+#: admin/txt-admin.php:1218
+msgid "Date Display Format"
+msgstr ""
+
+#: admin/txt-admin.php:1243
+msgid "Icon Tag"
+msgstr ""
+
+#: admin/txt-admin.php:1246
+msgid "Max Number of Icons"
+msgstr ""
+
+#: admin/txt-admin.php:1249
+msgid "Class - Icon On"
+msgstr ""
+
+#: admin/txt-admin.php:1252
+msgid "Class - Icon Off"
+msgstr ""
+
+#: admin/txt-admin.php:1255
+msgid "Style - Icon On"
+msgstr ""
+
+#: admin/txt-admin.php:1258
+msgid "Style - Icon Off"
+msgstr ""
+
+#: admin/txt-admin.php:1265
+msgid "vCard Template"
+msgstr ""
+
+#: admin/txt-admin.php:1268
+msgid "Address - Multipart Field"
+msgstr ""
+
+#: admin/txt-admin.php:1271
+msgid "Hide photo"
+msgstr ""
+
+#: admin/txt-admin.php:1274
+msgid "Hide address"
+msgstr ""
+
+#: admin/txt-admin.php:1277
+msgid "Hide URL 1"
+msgstr ""
+
+#: admin/txt-admin.php:1280
+msgid "Hide vCard link"
+msgstr ""
+
+#: admin/txt-admin.php:1283
+msgid "vCard plugin not installed!"
+msgstr ""
+
+#: admin/txt-admin.php:1286
+msgid "Street Address"
+msgstr ""
+
+#: admin/txt-admin.php:1289
+msgid "Extended Address (apartment or suite number)"
+msgstr ""
+
+#: admin/txt-admin.php:1292
+msgid "City (locality)"
+msgstr ""
+
+#: admin/txt-admin.php:1296
+msgid "State (region, province)"
+msgstr ""
+
+#: admin/txt-admin.php:1299
+msgid "Zipcode (postal code)"
+msgstr ""
+
+#: admin/txt-admin.php:1302
+msgid "Country Name"
+msgstr ""
+
+#: admin/txt-admin.php:1305
+msgid "State"
+msgstr ""
+
+#: admin/txt-admin.php:1308
+msgid "Zipcode"
+msgstr ""
+
+#: admin/txt-admin.php:1311
+msgid "Country"
+msgstr ""
+
+#: admin/txt-admin.php:1314
+msgid "City"
+msgstr ""
+
+#: admin/txt-admin.php:1317
+msgid "Apartment, suite number"
+msgstr ""
+
+#: admin/txt-admin.php:1320
+msgid "vCard Hyperlink"
+msgstr ""
+
+#: admin/txt-admin.php:1323
+msgid "vCard template not selected."
+msgstr ""
+
+#: admin/txt-admin.php:1327
+msgid "vCard template not found."
+msgstr ""
+
+#: admin/txt-admin.php:1330
+msgid "Add download attribute."
+msgstr ""
+
+#: admin/txt-admin.php:1333
+msgid "QR Files Upload Directory"
+msgstr ""
+
+#: admin/txt-admin.php:1336
+msgid "QR Files URL"
+msgstr ""
+
+#: admin/txt-admin.php:1339
+msgid "QR File Name"
+msgstr ""
+
+#: admin/txt-admin.php:1342
+msgid "QR Code Hyperlink (Base64 static). Discontinued."
+msgstr ""
+
+#: admin/txt-admin.php:1345
+msgid "QR Code Hyperlink (Base64 dynamic). Discontinued."
+msgstr ""
+
+#: admin/txt-admin.php:1348
+msgid "Yes, link to custom (static) pages."
+msgstr ""
+
+#: admin/txt-admin.php:1351
+msgid "Image Attributes"
+msgstr ""
+
+#: admin/txt-admin.php:1354
+msgid "Custom CSS Class - Text Container"
+msgstr ""
+
+#: admin/txt-admin.php:1358
+msgid "Custom Inline Style - Text Container"
+msgstr ""
+
+#: admin/txt-admin.php:1361
+msgid "QR Code Image Base64 Static"
+msgstr ""
+
+#: admin/txt-admin.php:1364
+msgid "Dynamic image."
+msgstr ""
+
+#: admin/txt-admin.php:1367
+msgid "Static Caption"
+msgstr ""
+
+#: admin/txt-admin.php:1370
+msgid "Static Alt"
+msgstr ""
+
+#: admin/txt-admin.php:1373
+msgid "Dynamic Caption"
+msgstr ""
+
+#: admin/txt-admin.php:1376
+msgid "Dynamic Alt"
+msgstr ""
+
+#: admin/txt-admin.php:1379
+msgid "QR Code Image Base64 Dynamic"
+msgstr ""
+
+#: admin/txt-admin.php:1382
+msgid "Image Hyperlink + Caption"
+msgstr ""
+
+#: admin/txt-admin.php:1385
+msgid "Image + Caption"
+msgstr ""
+
+#: admin/txt-admin.php:1389
+msgid "Copy from Address - Multipart Field"
+msgstr ""
+
+#: admin/txt-admin.php:1392
+msgid "Documentation Isotope"
+msgstr ""
+
+#: admin/txt-admin.php:1395
+msgid "How to center text."
+msgstr ""
+
+#: admin/txt-admin.php:1408
+msgid "Icon Class"
+msgstr ""
+
+#: admin/txt-admin.php:1411
+msgid "Icon Name"
+msgstr ""
+
+#: admin/txt-admin.php:1414
+msgid "Icon Style"
+msgstr ""
+
+#: admin/txt-admin.php:1417
+msgid "Icon Spacing (Horizontal)"
+msgstr ""
+
+#: admin/txt-admin.php:1420
+msgid "Excluded Slugs"
+msgstr ""
+
+#: admin/txt-admin.php:1423
+msgid "Icon Type"
+msgstr ""
+
+#: admin/txt-admin.php:1426
+msgid "No Records Found"
+msgstr ""
+
+#: admin/txt-admin.php:1429
+msgid "Field Order"
+msgstr ""
+
+#: admin/txt-admin.php:1432
+msgid "Field Parts Order the same as:"
+msgstr ""
+
+#: admin/txt-admin.php:1436
+msgid "Source of Data"
+msgstr ""
+
+#: admin/txt-admin.php:1439
+msgid "Custom class or style is required."
+msgstr ""
+
+#: admin/txt-admin.php:1442
+msgid "Field container class."
+msgstr ""
+
+#: admin/txt-admin.php:1445
+msgid "Field container style."
+msgstr ""
+
+#: admin/txt-admin.php:1448
+msgid "Static label class."
+msgstr ""
+
+#: admin/txt-admin.php:1451
+msgid "Static label style."
+msgstr ""
+
+#: admin/txt-admin.php:1454
+msgid "Text class."
+msgstr ""
+
+#: admin/txt-admin.php:1457
+msgid "Text style."
+msgstr ""
+
+#: admin/txt-admin.php:1460
+msgid "Spacer"
+msgstr ""
+
+#: admin/txt-admin.php:1463
+msgid "Staff template not selected!"
+msgstr ""
+
+#: admin/txt-admin.php:1467
+msgid "Yes, link to hybrid pages."
+msgstr ""
+
+#: admin/txt-admin.php:1473
+msgid "Static Label Style - Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:1476
+msgid "Text Style - Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:1479
+msgid "Displayed above the field value container."
+msgstr ""
+
+#: admin/txt-admin.php:1491
+msgid "Top Margin - Single Page"
+msgstr ""
+
+#: admin/txt-admin.php:1494
+msgid "Custom Styles"
+msgstr ""
+
+#: admin/txt-admin.php:1498
+msgid "Field Container CSS Class"
+msgstr ""
+
+#: admin/txt-admin.php:1501
+msgid "Static Label CSS Class"
+msgstr ""
+
+#: admin/txt-admin.php:1504
+msgid "Text CSS Class"
+msgstr ""
+
+#: admin/txt-admin.php:1507
+msgid "Static Label Style - Staff Page"
+msgstr ""
+
+#: admin/txt-admin.php:1510
+msgid "Text Style - Staff Page"
+msgstr ""
+
+#: admin/txt-admin.php:1513
+msgid "Field Style"
+msgstr ""
+
+#: admin/txt-admin.php:1516
+msgid "Top Margin - Staff Page"
+msgstr ""
+
+#: admin/txt-admin.php:1519
+msgid ""
+"Label and optional description to identify the input fields. For staff "
+"member data entry screen only, not front end."
+msgstr ""
+
+#: inc/post-types.php:25 inc/post-types.php:53
+msgid "Add Template"
+msgstr ""
+
+#: inc/post-types.php:86 inc/post-types.php:90
+msgid "Staff Categories"
+msgstr ""
+
+#: inc/post-types.php:87
+msgid "Add Category"
+msgstr ""
+
+#: inc/post-types.php:88 inc/post-types.php:89
+msgid "Edit Category"
+msgstr ""
+
+#: inc/post-types.php:113 inc/post-types.php:139
+msgid "Add Menu"
+msgstr ""
+
+#: incf/post-types.php:53 incf/post-types.php:57 incp/post-types.php:54
+#: incp/post-types.php:58
+msgid "Staff Members"
+msgstr ""
+
+#: incf/post-types.php:54 incp/post-types.php:55
+msgid "Add New"
+msgstr ""
+
+#: incf/post-types.php:55 incf/post-types.php:56 incp/post-types.php:56
+#: incp/post-types.php:57
+msgid "Staff Member"
+msgstr ""
+
+#: incp/post-types.php:136
+msgid "Add Filter"
+msgstr ""
+
+#: library/abcfl-autil.php:70
+msgid "The license key is required for automatic updates."
+msgstr ""
+
+#: library/abcfl-autil.php:106
+msgid "The license key is required for automated updates."
+msgstr ""
+
+#: library/abcfl-autil.php:159 library/abcfl-autil.php:172
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: to-do/script-loader.php:143 to-do/script-loader.php:359
+msgid "g:i a"
+msgstr ""
+
+#: to-do/script-loader.php:146 to-do/script-loader.php:361
+msgid "F j, Y"
+msgstr ""
+
+#: to-do/script-loader.php:147 to-do/script-loader.php:363
+msgid "F j, Y g:i a"
+msgstr ""
+
+#: to-do/script-loader.php:265
+msgctxt "text direction"
+msgid "ltr"
+msgstr ""
+
+#: to-do/script-loader.php:352
+#, php-format
+msgid "%s from now"
+msgstr ""
+
+#: to-do/script-loader.php:354
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: to-do/script-loader.php:365
+msgid "M j, Y g:i a"
+msgstr ""
+
+#: to-do/script-loader.php:647
+msgid "Close all open tags"
+msgstr ""
+
+#: to-do/script-loader.php:648
+msgid "close tags"
+msgstr ""
+
+#: to-do/script-loader.php:649
+msgid "Enter the URL"
+msgstr ""
+
+#: to-do/script-loader.php:650
+msgid "Enter the URL of the image"
+msgstr ""
+
+#: to-do/script-loader.php:651
+msgid "Enter a description of the image"
+msgstr ""
+
+#: to-do/script-loader.php:652
+msgid "text direction"
+msgstr ""
+
+#: to-do/script-loader.php:653
+msgid "Toggle Editor Text Direction"
+msgstr ""
+
+#: to-do/script-loader.php:654
+msgid "Distraction-free writing mode"
+msgstr ""
+
+#: to-do/script-loader.php:655
+msgid "Bold"
+msgstr ""
+
+#: to-do/script-loader.php:656
+msgid "Close bold tag"
+msgstr ""
+
+#: to-do/script-loader.php:657
+msgid "Italic"
+msgstr ""
+
+#: to-do/script-loader.php:658
+msgid "Close italic tag"
+msgstr ""
+
+#: to-do/script-loader.php:659
+msgid "Insert link"
+msgstr ""
+
+#: to-do/script-loader.php:660
+msgid "Blockquote"
+msgstr ""
+
+#: to-do/script-loader.php:661
+msgid "Close blockquote tag"
+msgstr ""
+
+#: to-do/script-loader.php:662
+msgid "Deleted text (strikethrough)"
+msgstr ""
+
+#: to-do/script-loader.php:663
+msgid "Close deleted text tag"
+msgstr ""
+
+#: to-do/script-loader.php:664
+msgid "Inserted text"
+msgstr ""
+
+#: to-do/script-loader.php:665
+msgid "Close inserted text tag"
+msgstr ""
+
+#: to-do/script-loader.php:666
+msgid "Insert image"
+msgstr ""
+
+#: to-do/script-loader.php:667
+msgid "Bulleted list"
+msgstr ""
+
+#: to-do/script-loader.php:668
+msgid "Close bulleted list tag"
+msgstr ""
+
+#: to-do/script-loader.php:669
+msgid "Numbered list"
+msgstr ""
+
+#: to-do/script-loader.php:670
+msgid "Close numbered list tag"
+msgstr ""
+
+#: to-do/script-loader.php:671
+msgid "List item"
+msgstr ""
+
+#: to-do/script-loader.php:672
+msgid "Close list item tag"
+msgstr ""
+
+#: to-do/script-loader.php:673
+msgid "Code"
+msgstr ""
+
+#: to-do/script-loader.php:674
+msgid "Close code tag"
+msgstr ""
+
+#: to-do/script-loader.php:675
+msgid "Insert Read More tag"
+msgstr ""
+
+#: to-do/script-loader.php:690
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: to-do/script-loader.php:691 to-do/script-loader.php:1166
+msgid "Something went wrong."
+msgstr ""
+
+#: to-do/script-loader.php:811 to-do/script-loader.php:1119
+msgid "No results found."
+msgstr ""
+
+#: to-do/script-loader.php:813
+msgid "1 result found. Use up and down arrow keys to navigate."
+msgstr ""
+
+#: to-do/script-loader.php:815
+#, php-format
+msgid "%d results found. Use up and down arrow keys to navigate."
+msgstr ""
+
+#: to-do/script-loader.php:816
+msgid "Item selected."
+msgstr ""
+
+#: to-do/script-loader.php:846
+msgid "Next &gt;"
+msgstr ""
+
+#: to-do/script-loader.php:847
+msgid "&lt; Prev"
+msgstr ""
+
+#: to-do/script-loader.php:849
+msgid "of"
+msgstr ""
+
+#: to-do/script-loader.php:850 to-do/script-loader.php:1163
+#: to-do/script-loader.php:1783
+msgid "Close"
+msgstr ""
+
+#: to-do/script-loader.php:851
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
+msgstr ""
+
+#: to-do/script-loader.php:862
+msgid "You have attempted to queue too many files."
+msgstr ""
+
+#: to-do/script-loader.php:864
+#, php-format
+msgid "%s exceeds the maximum upload size for this site."
+msgstr ""
+
+#: to-do/script-loader.php:865
+msgid "This file is empty. Please try another."
+msgstr ""
+
+#: to-do/script-loader.php:866
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: to-do/script-loader.php:867
+msgid "This file is not an image. Please try another."
+msgstr ""
+
+#: to-do/script-loader.php:868
+msgid "Memory exceeded. Please try another smaller file."
+msgstr ""
+
+#: to-do/script-loader.php:869
+msgid "This is larger than the maximum size. Please try another."
+msgstr ""
+
+#: to-do/script-loader.php:870
+msgid "An error occurred in the upload. Please try again later."
+msgstr ""
+
+#: to-do/script-loader.php:871
+msgid ""
+"There was a configuration error. Please contact the server administrator."
+msgstr ""
+
+#: to-do/script-loader.php:872
+msgid "You may only upload 1 file."
+msgstr ""
+
+#: to-do/script-loader.php:873
+msgid ""
+"Unexpected response from the server. The file may have been uploaded "
+"successfully. Check in the Media Library or reload the page."
+msgstr ""
+
+#: to-do/script-loader.php:874
+msgid ""
+"Post-processing of the image failed likely because the server is busy or "
+"does not have enough resources. Uploading a smaller image may help. "
+"Suggested maximum size is 2500 pixels."
+msgstr ""
+
+#: to-do/script-loader.php:875
+msgid "Upload failed."
+msgstr ""
+
+#: to-do/script-loader.php:877
+#, php-format
+msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
+msgstr ""
+
+#: to-do/script-loader.php:879
+#, php-format
+msgid ""
+"%s exceeds the maximum upload size for the multi-file uploader when used in "
+"your browser."
+msgstr ""
+
+#: to-do/script-loader.php:880
+msgid "IO error."
+msgstr ""
+
+#: to-do/script-loader.php:881
+msgid "Security error."
+msgstr ""
+
+#: to-do/script-loader.php:882
+msgid "File canceled."
+msgstr ""
+
+#: to-do/script-loader.php:883
+msgid "Upload stopped."
+msgstr ""
+
+#: to-do/script-loader.php:884
+msgid "Dismiss"
+msgstr ""
+
+#: to-do/script-loader.php:885
+msgid "Crunching&hellip;"
+msgstr ""
+
+#: to-do/script-loader.php:886
+msgid "moved to the Trash."
+msgstr ""
+
+#: to-do/script-loader.php:888
+#, php-format
+msgid "&#8220;%s&#8221; has failed to upload."
+msgstr ""
+
+#: to-do/script-loader.php:889
+msgid ""
+"This image cannot be displayed in a web browser. For best results convert it "
+"to JPEG before uploading."
+msgstr ""
+
+#: to-do/script-loader.php:890
+msgid ""
+"This image cannot be processed by the web server. Convert it to JPEG or PNG "
+"before uploading."
+msgstr ""
+
+#: to-do/script-loader.php:891
+msgid "The file URL has been copied to your clipboard"
+msgstr ""
+
+#: to-do/script-loader.php:950
+msgid "Download File"
+msgstr ""
+
+#: to-do/script-loader.php:951
+msgid ""
+"You are using a browser that does not have Flash player enabled or "
+"installed. Please turn on your Flash player plugin or download the latest "
+"version from https://get.adobe.com/flashplayer/"
+msgstr ""
+
+#: to-do/script-loader.php:952
+msgid "Fullscreen"
+msgstr ""
+
+#: to-do/script-loader.php:953
+msgid "Play"
+msgstr ""
+
+#: to-do/script-loader.php:954
+msgid "Pause"
+msgstr ""
+
+#: to-do/script-loader.php:955
+msgid "Time Slider"
+msgstr ""
+
+#: to-do/script-loader.php:956
+msgid ""
+"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance "
+"ten seconds."
+msgstr ""
+
+#: to-do/script-loader.php:957
+msgid "Live Broadcast"
+msgstr ""
+
+#: to-do/script-loader.php:958
+msgid "Use Up/Down Arrow keys to increase or decrease volume."
+msgstr ""
+
+#: to-do/script-loader.php:959
+msgid "Unmute"
+msgstr ""
+
+#: to-do/script-loader.php:960
+msgid "Mute"
+msgstr ""
+
+#: to-do/script-loader.php:961
+msgid "Volume Slider"
+msgstr ""
+
+#: to-do/script-loader.php:962
+msgid "Video Player"
+msgstr ""
+
+#: to-do/script-loader.php:963
+msgid "Audio Player"
+msgstr ""
+
+#: to-do/script-loader.php:964
+msgid "Captions/Subtitles"
+msgstr ""
+
+#: to-do/script-loader.php:965
+msgid "Chapters"
+msgstr ""
+
+#: to-do/script-loader.php:967
+msgid "Afrikaans"
+msgstr ""
+
+#: to-do/script-loader.php:968
+msgid "Albanian"
+msgstr ""
+
+#: to-do/script-loader.php:969
+msgid "Arabic"
+msgstr ""
+
+#: to-do/script-loader.php:970
+msgid "Belarusian"
+msgstr ""
+
+#: to-do/script-loader.php:971
+msgid "Bulgarian"
+msgstr ""
+
+#: to-do/script-loader.php:972
+msgid "Catalan"
+msgstr ""
+
+#: to-do/script-loader.php:973
+msgid "Chinese"
+msgstr ""
+
+#: to-do/script-loader.php:974
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: to-do/script-loader.php:975
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#: to-do/script-loader.php:976
+msgid "Croatian"
+msgstr ""
+
+#: to-do/script-loader.php:977
+msgid "Czech"
+msgstr ""
+
+#: to-do/script-loader.php:978
+msgid "Danish"
+msgstr ""
+
+#: to-do/script-loader.php:979
+msgid "Dutch"
+msgstr ""
+
+#: to-do/script-loader.php:980
+msgid "English"
+msgstr ""
+
+#: to-do/script-loader.php:981
+msgid "Estonian"
+msgstr ""
+
+#: to-do/script-loader.php:982
+msgid "Filipino"
+msgstr ""
+
+#: to-do/script-loader.php:983
+msgid "Finnish"
+msgstr ""
+
+#: to-do/script-loader.php:984
+msgid "French"
+msgstr ""
+
+#: to-do/script-loader.php:985
+msgid "Galician"
+msgstr ""
+
+#: to-do/script-loader.php:986
+msgid "German"
+msgstr ""
+
+#: to-do/script-loader.php:987
+msgid "Greek"
+msgstr ""
+
+#: to-do/script-loader.php:988
+msgid "Haitian Creole"
+msgstr ""
+
+#: to-do/script-loader.php:989
+msgid "Hebrew"
+msgstr ""
+
+#: to-do/script-loader.php:990
+msgid "Hindi"
+msgstr ""
+
+#: to-do/script-loader.php:991
+msgid "Hungarian"
+msgstr ""
+
+#: to-do/script-loader.php:992
+msgid "Icelandic"
+msgstr ""
+
+#: to-do/script-loader.php:993
+msgid "Indonesian"
+msgstr ""
+
+#: to-do/script-loader.php:994
+msgid "Irish"
+msgstr ""
+
+#: to-do/script-loader.php:995
+msgid "Italian"
+msgstr ""
+
+#: to-do/script-loader.php:996
+msgid "Japanese"
+msgstr ""
+
+#: to-do/script-loader.php:997
+msgid "Korean"
+msgstr ""
+
+#: to-do/script-loader.php:998
+msgid "Latvian"
+msgstr ""
+
+#: to-do/script-loader.php:999
+msgid "Lithuanian"
+msgstr ""
+
+#: to-do/script-loader.php:1000
+msgid "Macedonian"
+msgstr ""
+
+#: to-do/script-loader.php:1001
+msgid "Malay"
+msgstr ""
+
+#: to-do/script-loader.php:1002
+msgid "Maltese"
+msgstr ""
+
+#: to-do/script-loader.php:1003
+msgid "Norwegian"
+msgstr ""
+
+#: to-do/script-loader.php:1004
+msgid "Persian"
+msgstr ""
+
+#: to-do/script-loader.php:1005
+msgid "Polish"
+msgstr ""
+
+#: to-do/script-loader.php:1006
+msgid "Portuguese"
+msgstr ""
+
+#: to-do/script-loader.php:1007
+msgid "Romanian"
+msgstr ""
+
+#: to-do/script-loader.php:1008
+msgid "Russian"
+msgstr ""
+
+#: to-do/script-loader.php:1009
+msgid "Serbian"
+msgstr ""
+
+#: to-do/script-loader.php:1010
+msgid "Slovak"
+msgstr ""
+
+#: to-do/script-loader.php:1011
+msgid "Slovenian"
+msgstr ""
+
+#: to-do/script-loader.php:1012
+msgid "Spanish"
+msgstr ""
+
+#: to-do/script-loader.php:1013
+msgid "Swahili"
+msgstr ""
+
+#: to-do/script-loader.php:1014
+msgid "Swedish"
+msgstr ""
+
+#: to-do/script-loader.php:1015
+msgid "Tagalog"
+msgstr ""
+
+#: to-do/script-loader.php:1016
+msgid "Thai"
+msgstr ""
+
+#: to-do/script-loader.php:1017
+msgid "Turkish"
+msgstr ""
+
+#: to-do/script-loader.php:1018
+msgid "Ukrainian"
+msgstr ""
+
+#: to-do/script-loader.php:1019
+msgid "Vietnamese"
+msgstr ""
+
+#: to-do/script-loader.php:1020
+msgid "Welsh"
+msgstr ""
+
+#: to-do/script-loader.php:1021
+msgid "Yiddish"
+msgstr ""
+
+#: to-do/script-loader.php:1076
+msgctxt "password strength"
+msgid "Password strength unknown"
+msgstr ""
+
+#: to-do/script-loader.php:1077
+msgctxt "password strength"
+msgid "Very weak"
+msgstr ""
+
+#: to-do/script-loader.php:1078
+msgctxt "password strength"
+msgid "Weak"
+msgstr ""
+
+#: to-do/script-loader.php:1079
+msgctxt "password strength"
+msgid "Medium"
+msgstr ""
+
+#: to-do/script-loader.php:1080
+msgctxt "password strength"
+msgid "Strong"
+msgstr ""
+
+#: to-do/script-loader.php:1081
+msgctxt "password mismatch"
+msgid "Mismatch"
+msgstr ""
+
+#: to-do/script-loader.php:1115
+msgid "Insert/edit link"
+msgstr ""
+
+#: to-do/script-loader.php:1116
+msgid "Update"
+msgstr ""
+
+#: to-do/script-loader.php:1117
+msgid "Add Link"
+msgstr ""
+
+#: to-do/script-loader.php:1118
+msgid "(no title)"
+msgstr ""
+
+#: to-do/script-loader.php:1120
+msgid "Link selected."
+msgstr ""
+
+#: to-do/script-loader.php:1121
+msgid "Link inserted."
+msgstr ""
+
+#: to-do/script-loader.php:1123
+msgctxt "minimum input length for searching post links"
+msgid "3"
+msgstr ""
+
+#: to-do/script-loader.php:1148
+msgid "Activate &amp; Publish"
+msgstr ""
+
+#: to-do/script-loader.php:1149
+msgid "Save &amp; Publish"
+msgstr ""
+
+#: to-do/script-loader.php:1150
+msgid "Publish"
+msgstr ""
+
+#: to-do/script-loader.php:1151
+msgid "Published"
+msgstr ""
+
+#: to-do/script-loader.php:1152
+msgid "Save Draft"
+msgstr ""
+
+#: to-do/script-loader.php:1153
+msgid "Draft Saved"
+msgstr ""
+
+#: to-do/script-loader.php:1154
+msgid "Updating"
+msgstr ""
+
+#: to-do/script-loader.php:1155
+msgctxt "customizer changeset action/button label"
+msgid "Schedule"
+msgstr ""
+
+#: to-do/script-loader.php:1156
+msgctxt "customizer changeset status"
+msgid "Scheduled"
+msgstr ""
+
+#: to-do/script-loader.php:1157
+msgid "Invalid"
+msgstr ""
+
+#: to-do/script-loader.php:1158
+msgid "Please save your changes in order to share the preview."
+msgstr ""
+
+#: to-do/script-loader.php:1159
+msgid "You must supply a future date to schedule."
+msgstr ""
+
+#: to-do/script-loader.php:1160
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: to-do/script-loader.php:1161
+msgid "Saved"
+msgstr ""
+
+#: to-do/script-loader.php:1162
+msgid "Cancel"
+msgstr ""
+
+#: to-do/script-loader.php:1164
+msgid "Action"
+msgstr ""
+
+#: to-do/script-loader.php:1165
+msgid "Discard changes"
+msgstr ""
+
+#: to-do/script-loader.php:1167
+msgid "You need a higher level of permission."
+msgstr ""
+
+#: to-do/script-loader.php:1168
+msgid "Sorry, you are not allowed to customize this site."
+msgstr ""
+
+#: to-do/script-loader.php:1169
+msgid "Site Preview"
+msgstr ""
+
+#: to-do/script-loader.php:1170
+msgid "Session expired"
+msgstr ""
+
+#: to-do/script-loader.php:1171
+msgctxt "label for hide controls button without length constraints"
+msgid "Hide Controls"
+msgstr ""
+
+#: to-do/script-loader.php:1172
+msgctxt "label for hide controls button without length constraints"
+msgid "Show Controls"
+msgstr ""
+
+#: to-do/script-loader.php:1173
+msgid "(Untitled)"
+msgstr ""
+
+#: to-do/script-loader.php:1174
+msgid ""
+"Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try "
+"again."
+msgstr ""
+
+#: to-do/script-loader.php:1175
+msgid "Downloading your new theme&hellip;"
+msgstr ""
+
+#: to-do/script-loader.php:1176
+msgid "Setting up your live preview. This may take a bit."
+msgstr ""
+
+#: to-do/script-loader.php:1177
+msgid "Reverting unpublished changes&hellip;"
+msgstr ""
+
+#: to-do/script-loader.php:1178
+msgid "Are you sure you want to discard your unpublished changes?"
+msgstr ""
+
+#: to-do/script-loader.php:1180
+#, php-format
+msgid "%s has taken over and is currently customizing."
+msgstr ""
+
+#: to-do/script-loader.php:1182
+#, php-format
+msgid ""
+"There is a more recent autosave of your changes than the one you are "
+"previewing. <a href=\"%s\">Restore the autosave</a>"
+msgstr ""
+
+#: to-do/script-loader.php:1183
+msgid ""
+"This theme doesn&#8217;t support video headers on this page. Navigate to the "
+"front page or another page that supports video headers."
+msgstr ""
+
+#: to-do/script-loader.php:1185
+msgid "Allowed Files"
+msgstr ""
+
+#: to-do/script-loader.php:1188 to-do/script-loader.php:1190
+#, php-format
+msgid "There is %d error which must be fixed before you can save."
+msgid_plural "There are %d errors which must be fixed before you can save."
+msgstr[0] ""
+msgstr[1] ""
+
+#: to-do/script-loader.php:1193
+msgid "Homepage and posts page must be different."
+msgstr ""
+
+#: to-do/script-loader.php:1196 to-do/script-loader.php:1198
+#, php-format
+msgid "Unable to save due to %s invalid setting."
+msgid_plural "Unable to save due to %s invalid settings."
+msgstr[0] ""
+msgstr[1] ""
+
+#: to-do/script-loader.php:1201
+msgid ""
+"Schedule your customization changes to publish (\"go live\") at a future "
+"date."
+msgstr ""
+
+#: to-do/script-loader.php:1202
+msgid ""
+"Sorry, you can&#8217;t preview new themes when you have changes scheduled or "
+"saved as a draft. Please publish your changes, or wait until they publish to "
+"preview new themes."
+msgstr ""
+
+#: to-do/script-loader.php:1205
+#, php-format
+msgid ""
+"You won&#8217;t be able to install new themes from here yet since your "
+"install requires SFTP credentials. For now, please <a href=\"%s\">add themes "
+"in the admin</a>."
+msgstr ""
+
+#: to-do/script-loader.php:1208
+msgid "Publish Settings"
+msgstr ""
+
+#: to-do/script-loader.php:1209
+msgid "Invalid date."
+msgstr ""
+
+#: to-do/script-loader.php:1210
+msgid "Invalid value."
+msgstr ""
+
+#: to-do/script-loader.php:1408
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: to-do/script-loader.php:1415
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: to-do/script-loader.php:1498
+msgctxt "Google Font Name and Variants"
+msgid "Noto Serif:400,400i,700,700i"
+msgstr ""
+
+#: to-do/script-loader.php:1730
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr ""
+
+#: to-do/script-loader.php:1784
+msgid "Today"
+msgstr ""
+
+#: to-do/script-loader.php:1787
+msgid "Next"
+msgstr ""
+
+#: to-do/script-loader.php:1788
+msgid "Previous"
+msgstr ""
+
+#: to-do/wp_insert_term.php:6
+msgid "Invalid taxonomy."
+msgstr ""
+
+#: to-do/wp_insert_term.php:24
+msgid "Invalid term ID."
+msgstr ""
+
+#: to-do/wp_insert_term.php:28
+msgid "A name is required for this term."
+msgstr ""
+
+#: to-do/wp_insert_term.php:40
+msgid "Parent term does not exist."
+msgstr ""
+
+#: to-do/wp_insert_term.php:138
+msgid "A term with the name provided already exists with this parent."
+msgstr ""
+
+#: to-do/wp_insert_term.php:141
+msgid "A term with the name provided already exists in this taxonomy."
+msgstr ""
+
+#: to-do/wp_insert_term.php:162
+msgid "Could not insert term into the database."
+msgstr ""
+
+#: to-do/wp_insert_term.php:189
+msgid "Could not insert term taxonomy into the database."
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:214
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:216
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:218
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: updates/Puc/v4p11/Plugin/Ui.php:224
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: updates/Puc/v4p11/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""

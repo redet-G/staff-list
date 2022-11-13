@@ -1,0 +1,257 @@
+/*-- ABCFL CSS -------------------------------------------
+* Version 146
+*
+* 135 text-align
+* 136 Removed Segoe UI Semibold
+* 137
+* 138   .abcflFontS16 { font-size: 16px; }
+* 139 abcflFlexCntr
+* 140 abcflFldCntr margin top to 10
+* 141 abcflFldHlpUnder font size to 13, italic
+* 142 abcflFldCntr4 abcflFldLbl1
+* 143 abcflShortcode input changed color
+* 144 abcflPLeft5
+* 145 abcflFontFVS16
+* 146 abcflVABottom
+*/
+
+.abcflHDivider1, .abcflHDivider2, .abcflHDivider4 { width: 99%; border-top-style: solid; border-top-color: #999999; line-height: 1px; }
+.abcflHDivider1 { border-top-width: 1px; }
+.abcflHDivider2 { border-top-width: 2px; }
+.abcflHDivider4 { border-top-width: 4px; }
+
+.abcflHDivider, .abcflHLine { border-top-style: solid; min-height: 1px;}
+.abcflBTW1 { border-top-width: 1px; }
+.abcflBTW2 { border-top-width: 2px; }
+.abcflBTW3 { border-top-width: 3px; }
+.abcflBTW4 { border-top-width: 4px; }
+.abcflBTCGray { border-top-color: #999999; }
+.abcflBTCRed { border-top-color: #E60000; }
+
+.abcflBBRed{ border-bottom-style: solid; border-bottom-color: #E60000; line-height:1px; border-bottom-width: 2px; }
+
+/* ===WIDTH=========================== */
+.abcflWidth100Pc{width:100%;}
+.abcflWidth99Pc{width:99%;}
+.abcflWidth90Pc{width:90%;}
+.abcflWidth89Pc{width:89%;}
+.abcflWidth80Pc{width:80%;}
+.abcflWidth70Pc{width:70%;}
+.abcflWidth60Pc{width:60%;}
+.abcflWidth50Pc{width:50%;}
+.abcflWidth40Pc{width:40%;}
+.abcflWidth33Pc{width:33%;}
+.abcflWidth30Pc{width:30%;}
+.abcflWidth25Pc{width:25%;}
+.abcflWidth20Pc{width:20%;}
+.abcflWidth10Pc{width:10%;}
+.abcflWidth5Pc{width:5%;}
+
+.abcflWidth50P { width: 50%; }
+.abcflWidth99P { width: 99%; }
+
+/*-- Inputs + Input Labels-------------------------------------------*/
+.abcflFldCntr, .abcflFldCntrF { margin-top: 10px; position: relative; }
+.abcflFldCntr4 { margin-top: 4px; position: relative; }
+.abcflFldCntrF { float: left; }
+.abcflML10 { margin-left: 10px; }
+.abcflFldLbl { padding-bottom: 4px; }
+.abcflFldLbl1 { padding-bottom: 1px; }
+.abcflFldHlp, .abcflFldHlpUnder { font-size: 13px; }
+.abcflFldHlp { margin-left: 5px; }
+.abcflFldHlpUnder { display: block; margin-top: 1px; font-style: italic; }
+.abcflFldHlpUnder p { margin-top: 0px; margin-bottom: 0px; padding-top: 0px; }
+.abcflShortcode input[readonly] { background: #fafac4; border: 1px solid #666666; color: #000000; padding-top: 2px; padding-bottom: 2px; }
+.abcflLicenseKey { font-size: 1.2rem; line-height: 150%; padding-left: 10px; font-weight: 400; }
+
+/*-- Help Text -------------------------------------------*/
+.abcflLbl11G, .abcflMboxHlp12, .abcflMboxHlpB, .abcflMboxHlpB12, .abcflMboxHlpMT, .abcflMboxHlpMT12, .abcflMboxHlpMTB, .abcflLblMTB12G{ font-family: Verdana,Arial,Helvetica,sans-serif; color: #006633; }
+.abcflLbl11G, .abcflMboxHlpB, .abcflMboxHlpMT, .abcflMboxHlpMTB { font-size: 11px; }
+.abcflMboxHlp12, .abcflMboxHlpB12, .abcflMboxHlpMT12, .abcflLblMTB12G { font-size: 12px; }
+.abcflMboxHlpB, .abcflMboxHlpB12, .abcflMboxHlpMTB, .abcflLblMTB12G { font-weight: 700; }
+.abcflMboxHlpMT, .abcflMboxHlpMT12, .abcflMboxHlpMTB, .abcflLblMTB12G { margin-top: 10px; }
+.abcflLbl11G p, .abcflMboxHlpB p, .abcflMboxHlpB12 p, .abcflMboxHlpMT p { margin-top: 0px; margin-bottom: 0px; padding-top: 0px; }
+
+/*-- Floats -------------------------------------------*/
+.abcflFloatsCntr { position: relative; margin-top: 10px; }
+.abcflFntW { float: left; width: 90px; }
+.abcflFntF, .abcflFntS, .abcflFntSh, .abcflFntClr, .abcflFntCI { float: left; margin-left: 8px; }
+.abcflFntS { width: 90px; }
+.abcflFntF { width: 240px; }
+.abcflFntSh { width: 75px; }
+.abcflFntClr { width: 65px; }
+.abcflFntCI { width: 110px; }
+
+.abcflFloatL { float: left; }
+.abcflPosRel{ position: relative; }
+
+/*-- Margins + Padding -------------------------------------------*/
+.abcflMTop0{ margin-top: 0; }
+.abcflMTop2{ margin-top: 2px; }
+.abcflMTop5{ margin-top: 5px; }
+.abcflMTop10{ margin-top: 10px; }
+.abcflMTop15{ margin-top: 15px;}
+.abcflMTop20{ margin-top: 20px;}
+.abcflMTop30{ margin-top: 30px;}
+.abcflMTop40{ margin-top: 40px;}
+.abcflMTop50{ margin-top: 50px;}
+.abcflMTop100{ margin-top: 100px;}
+
+.abcflMBottom0{ margin-bottom: 0px; }
+.abcflMBottom10{ margin-bottom: 10px; }
+.abcflMBottom15{ margin-bottom: 15px; }
+.abcflMBottom20{ margin-bottom: 20px; }
+
+.abcflMLeft10{ margin-left:10px; }
+.abcflMLeft20{ margin-left:20px; }
+.abcflMLeft30{ margin-left:30px; }
+.abcflMLeft40{ margin-left:40px; }
+.abcflMLeft50{ margin-left:50px; }
+
+.abcflPTop0{ padding-top: 0; }
+.abcflPTop2{ padding-top: 2px; }
+.abcflPTop5{ padding-top: 5px; }
+.abcflPTop10{ padding-top: 10px; }
+.abcflPTop15{ padding-top: 15px;}
+.abcflPTop20{ padding-top: 20px;}
+
+.abcflPLeft0{ padding-left: 0; }
+.abcflPLeft5{ padding-left: 5px; }
+.abcflPLeft10{ padding-left: 10px; }
+.abcflPLeft15{ padding-left: 15px;}
+.abcflPLeft20{ padding-left: 20px;}
+.abcflPLeft40{ padding-left: 40px;}
+.abcflPLeft40{ padding-left: 50px;}
+
+.abcflPRight0{ padding-right: 0; }
+.abcflPRight5{ padding-right: 5px; }
+.abcflPRight10{ padding-right: 10px; }
+.abcflPRight15{ padding-right: 15px;}
+.abcflPRight20{ padding-right: 20px;}
+
+.abcflVATop{ vertical-align: top;}
+
+/*-- Fonts ----------"Open Sans", -"Segoe UI Semibold",- "Segoe UI Semibold",-------------------------------*/
+.abcflFontFV,
+.abcflFontFVS11,
+.abcflFontFVS12,
+.abcflFontFVS14,
+.abcflFontFVS16,
+.abcflFontWP { color: #444;  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+.abcflFontWPHdr { color: #444;  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+.abcflFontWPSB,
+.abcflVTabsTabActive a { color: #444; font-weight: 600;  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+.abcflHlpLbl, .abcflFontS11, .abcflFontFVS11 { font-size: 11px; }
+.abcflFontS12, .abcflFontFVS12 { font-size: 12px; }
+.abcflFontS13 { font-size: 13px; }
+.abcflFontS14, .abcflFontFVS14 { font-size: 14px; }
+.abcflFontS16, .abcflFontFVS16 { font-size: 16px; }
+.abcflFontS18 { font-size: 18px; }
+.abcflFontS20 { font-size: 20px; }
+.abcflFontS1 { font-size: 1px; }
+.abcflFontW700 { font-weight: 700; }
+.abcflFontW600 { font-weight: 600; }
+.abcflFontW400 { font-weight: 400; }
+.abcflBlack{ color: #000000; }
+.abcflGreen { color: #006633; }
+.abcflBlue { color: #0073aa; }
+.abcflRed{ color: #E60000; }
+
+/*-- Tetx ----------------*/
+.abcflTxtCenter { text-align: center; }
+.abcflTxtRight { text-align: right; }
+.abcflTxtLeft { text-align: left; }
+
+
+/*-- Metabox Tabs ----------------*/
+.abcflVTabsMgr {
+    overflow: hidden;
+    background: #fff;
+    background: linear-gradient( 90deg, #fafafa 0%, #fafafa 180px, #fff 180px, #fff 100%);
+    border: 1px solid #e6e6e6;
+}
+.abcflVTabsNavCntr {
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 180px;
+
+    line-height: 1em;
+    margin: 0 0 -1px 0;
+    padding: 0;
+    background-color: #fafafa;
+    border-right: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+.abcflVTabsNavCntr li {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.abcflVTabsNavCntr li a {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    line-height: 20px !important;
+    text-decoration: none;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: none;
+}
+li.abcflVTabsTabActive a {
+    position: relative;
+    color: #262626;
+    background-color: #cccccc;
+}
+@media only screen and ( max-width: 782px),
+( max-width: 980px) and ( min-width: 851px) {
+    .abcflVTabsNavCntr {
+        width: 100px;
+    }
+}
+.abcflVTabsCntCntr {
+    float: left;
+    width: calc( 100% - 180px);
+    margin-left: -1px;
+    border-left: 1px solid #e6e6e6;
+}
+@media only screen and ( max-width: 782px),( max-width: 980px) and ( min-width: 851px) {
+    .abcflVTabsCntCntr { width: calc( 100% - 100px); }
+}
+.inside .abcflVTabsCntCntr  { box-sizing: border-box; }
+
+/*-- Misc -------------------------------------------*/
+.abcflClr { clear: both; font-size: 1px; margin: 0; padding: 0; border: 0; height: 0; }
+.abcflLineH1 { line-height: 1px; }
+
+/*-???--------------------------------------------*/
+.abcfTblCounts td { padding: 5px; }
+
+/*- Error and Notice messages  --------------------------------------------*/
+.abcflNotice {
+	background: #fff;
+	border-left: 4px solid #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+	box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+	margin: 5px 0 15px;
+	padding: 1px 12px;
+}
+
+.abcflNotice p { margin: 0.5em 0;padding: 2px; }
+.abcflNoticeOK { border-left-color: #46b450; }
+.abcflNoticeKO{ border-left-color: #dc3232; }
+.abcflNoticeInfo{ border-left-color: #0066cc; }
+
+/*- FLEX  --------------------------------------------*/
+.abcflFlexCntr {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .abcflVABottom {
+    vertical-align: text-bottom;
+  }

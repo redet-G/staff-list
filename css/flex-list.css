@@ -1,0 +1,44 @@
+/** BOURKE TEST ***********************/
+.flex-grid { display: flex; }
+.flex-grid .col { flex: 1; }
+
+.flex-grid-thirds, .abcfslFlexGridThirds {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+.flex-grid { margin: 0 0 10px 0; }
+
+.col {
+    background: rgb(226, 226, 226);
+    padding: 0 0 5px 0;
+}
+
+@media (max-width: 400px) {
+    .flex-grid, .flex-grid-thirds { display: block; width: 100%; }
+    .flex-grid-thirds .col { width: 100%;  }
+    .col { width: 100%; margin: 0 0 10px 0; padding: 0; }
+  }
+
+ .abcfslFlexGridThirds {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+
+.abcfslFlexGridThirds div {
+    width: 32%;
+    background: rgb(226, 226, 226);
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+}
+
+@media (max-width: 800px) {
+    .abcfslFlexGridThirds { display: block; width: 100%; }
+    .abcfslFlexGridThirds div { width: 100%; margin: 0 0 10px 0; padding: 0;  }
+}
