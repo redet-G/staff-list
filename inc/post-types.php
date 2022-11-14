@@ -65,6 +65,8 @@ function abcfsl_tax_category_args() {
         'labels' => abcfsl_tax_category_lbls(),
         'public'  => false,
         'show_ui' => true,
+        'show_in_quick_edit' => false,
+        'meta_box_cb' => false,
         'hierarchical' => true,
         'show_admin_column' => true,
         'query_var' => true,

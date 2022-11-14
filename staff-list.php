@@ -3,14 +3,15 @@
 Plugin Name: Staff List
 Plugin URI: https://abcfolio.com/wordpress-plugin-staff-list/
 Description:  Easily create list of staff members. Add single pages, filters and menus.
-Author: abcFolio
-Author URI: https://www.abcfolio.com
+Author: Redet G. Assefa
+Author URI: https://github.com/redet-G
 Text Domain: staff-list
 Domain Path: /languages/
 License: GPL v3
 Requires at least: 4.9
 Requires PHP: 5.6
-Version: 1.6.7
+Version: 1.6.8
+update URI: http://github.com/redet-G/staff-profile
 ------------------------------------------------------------------------
 Copyright 2009-2021 abcFolio.
 
@@ -292,7 +293,7 @@ final class ABCF_Staff_List {
         add_filter( 'abcfsl_cnt', 'convert_chars' );        
         add_filter( 'abcfsl_cnt', 'shortcode_unautop' );
         add_filter( 'abcfsl_cnt', 'do_shortcode' );
-        add_filter( 'abcfsl_cnt_wpautop', 'wpautop' );  
+        add_filter( 'abcfsl_cnt_wpautop', 'wpautop' );
     }
 
     //-------------------------------------------------

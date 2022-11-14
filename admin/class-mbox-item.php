@@ -22,7 +22,11 @@ class ABCFSL_MBox_Item {
             'default'
         );
 
-        add_meta_box('abcfsl_staff_member_tax_category');
+        add_meta_box('abcfsl_staff_member_tax_category','Category', array($this,'staff_member_category'),
+            $post->post_type,
+            'normal',
+            'default');
+
 
         add_meta_box(
             'abcfsl_staff_member_parent',
@@ -38,10 +42,287 @@ class ABCFSL_MBox_Item {
         remove_meta_box( 'wpseo_meta', 'cpt_img_txt_list', 'normal' );
     }
 
-    public function display_staff_member() {
+    public function display_staff_member()
+    {
         abcfsl_mbox_item_tabs();
     }
 
+    public function staff_member_category($post,$box ){
+
+        $defaults = array( 'taxonomy' => 'tax_staff_member_cat' );
+        if ( ! isset( $box['args'] ) || ! is_array( $box['args'] ) ) {
+            $args = array();
+        } else {
+            $args = $box['args'];
+        }
+        $parsed_args = wp_parse_args( $args, $defaults );
+        $tax_name    = esc_attr( $parsed_args['taxonomy'] );
+        $taxonomy    = get_taxonomy( 'tax_staff_member_cat');
+        ?>
+        <div id="taxonomy-<?php echo $tax_name; ?>" class="categorydiv">
+            <ul id="<?php echo $tax_name; ?>-tabs" class="category-tabs">
+                <li class="tabs"><a href="#<?php echo $tax_name; ?>-all"><?php echo $taxonomy->labels->all_items; ?></a></li>
+                <li class="hide-if-no-js"><a href="#<?php echo $tax_name; ?>-pop"><?php echo esc_html( $taxonomy->labels->most_used ); ?></a></li>
+            </ul>
+
+            <div id="<?php echo $tax_name; ?>-pop" class="tabs-panel" style="display: none;">
+                <ul id="<?php echo $tax_name; ?>checklist-pop" class="categorychecklist form-no-clear" >
+                    <?php $popular_ids = $this->staff_member_popular_terms_checklist( $tax_name ); ?>
+                </ul>
+            </div>
+
+            <div id="<?php echo $tax_name; ?>-all" class="tabs-panel">
+                <?php
+                $name = ( 'category' === $tax_name ) ? 'post_category' : 'tax_input[' . $tax_name . ']';
+                // Allows for an empty term set to be sent. 0 is an invalid term ID and will be ignored by empty() checks.
+                echo "<input type='hidden' name='{$name}[]' value='0' />";
+                ?>
+                <ul id="<?php echo $tax_name; ?>checklist" data-wp-lists="list:<?php echo $tax_name; ?>" class="categorychecklist form-no-clear">
+                    <?php
+                    $this->staff_member_terms_checklist(
+                        $post->ID,
+                        array(
+                            'taxonomy'     => $tax_name,
+                            'popular_cats' => $popular_ids,
+                        )
+                    );
+                    ?>
+                </ul>
+            </div>
+            <?php if ( current_user_can( $taxonomy->cap->edit_terms ) ) : ?>
+                <div id="<?php echo $tax_name; ?>-adder" class="wp-hidden-children">
+                    <a id="<?php echo $tax_name; ?>-add-toggle" href="#<?php echo $tax_name; ?>-add" class="hide-if-no-js taxonomy-add-new">
+                        <?php
+                        /* translators: %s: Add New taxonomy label. */
+                        printf( __( '+ %s' ), $taxonomy->labels->add_new_item );
+                        ?>
+                    </a>
+                    <p id="<?php echo $tax_name; ?>-add" class="category-add wp-hidden-child">
+                        <label class="screen-reader-text" for="new<?php echo $tax_name; ?>"><?php echo $taxonomy->labels->add_new_item; ?></label>
+                        <input type="text" name="new<?php echo $tax_name; ?>" id="new<?php echo $tax_name; ?>" class="form-required form-input-tip" value="<?php echo esc_attr( $taxonomy->labels->new_item_name ); ?>" aria-required="true" />
+                        <label class="screen-reader-text" for="new<?php echo $tax_name; ?>_parent">
+                            <?php echo $taxonomy->labels->parent_item_colon; ?>
+                        </label>
+                        <?php
+                        $parent_dropdown_args = array(
+                            'taxonomy'         => $tax_name,
+                            'hide_empty'       => 0,
+                            'name'             => 'new' . $tax_name . '_parent',
+                            'orderby'          => 'name',
+                            'hierarchical'     => 1,
+                            'show_option_none' => '&mdash; ' . $taxonomy->labels->parent_item . ' &mdash;',
+                        );
+
+                        /**
+                         * Filters the arguments for the taxonomy parent dropdown on the Post Edit page.
+                         *
+                         * @since 4.4.0
+                         *
+                         * @param array $parent_dropdown_args {
+                         *     Optional. Array of arguments to generate parent dropdown.
+                         *
+                         *     @type string   $taxonomy         Name of the taxonomy to retrieve.
+                         *     @type bool     $hide_if_empty    True to skip generating markup if no
+                         *                                      categories are found. Default 0.
+                         *     @type string   $name             Value for the 'name' attribute
+                         *                                      of the select element.
+                         *                                      Default "new{$tax_name}_parent".
+                         *     @type string   $orderby          Which column to use for ordering
+                         *                                      terms. Default 'name'.
+                         *     @type bool|int $hierarchical     Whether to traverse the taxonomy
+                         *                                      hierarchy. Default 1.
+                         *     @type string   $show_option_none Text to display for the "none" option.
+                         *                                      Default "&mdash; {$parent} &mdash;",
+                         *                                      where `$parent` is 'parent_item'
+                         *                                      taxonomy label.
+                         * }
+                         */
+                        $parent_dropdown_args = apply_filters( 'post_edit_category_parent_dropdown_args', $parent_dropdown_args );
+
+                        wp_dropdown_categories( $parent_dropdown_args );
+                        ?>
+                        <input type="button" id="<?php echo $tax_name; ?>-add-submit" data-wp-lists="add:<?php echo $tax_name; ?>checklist:<?php echo $tax_name; ?>-add" class="button category-add-submit" value="<?php echo esc_attr( $taxonomy->labels->add_new_item ); ?>" />
+                        <?php wp_nonce_field( 'add-' . $tax_name, '_ajax_nonce-add-' . $tax_name, false ); ?>
+                        <span id="<?php echo $tax_name; ?>-ajax-response"></span>
+                    </p>
+                </div>
+            <?php endif; ?>
+        </div>
+        <?php
+    }
+
+
+    function staff_member_terms_checklist( $post_id = 0, $args = array() ) {
+        $defaults = array(
+            'descendants_and_self' => 0,
+            'selected_cats'        => false,
+            'popular_cats'         => false,
+            'walker'               => null,
+            'taxonomy'             => 'category',
+            'checked_ontop'        => true,
+            'echo'                 => true,
+        );
+
+        /**
+         * Filters the taxonomy terms checklist arguments.
+         *
+         * @since 3.4.0
+         *
+         * @see wp_terms_checklist()
+         *
+         * @param array|string $args    An array or string of arguments.
+         * @param int          $post_id The post ID.
+         */
+        $params = apply_filters( 'wp_terms_checklist_args', $args, $post_id );
+
+        $parsed_args = wp_parse_args( $params, $defaults );
+
+        if ( empty( $parsed_args['walker'] ) || ! ( $parsed_args['walker'] instanceof Walker ) ) {
+            $walker = new Walker_Category_Checklist;
+        } else {
+            $walker = $parsed_args['walker'];
+        }
+
+        $taxonomy             = $parsed_args['taxonomy'];
+        $descendants_and_self = (int) $parsed_args['descendants_and_self'];
+
+        $args = array( 'taxonomy' => $taxonomy );
+
+        $tax              = get_taxonomy( $taxonomy );
+        $args['disabled'] = ! current_user_can( $tax->cap->assign_terms );
+
+        $args['list_only'] = ! empty( $parsed_args['list_only'] );
+
+        if ( is_array( $parsed_args['selected_cats'] ) ) {
+            $args['selected_cats'] = array_map( 'intval', $parsed_args['selected_cats'] );
+        } elseif ( $post_id ) {
+            $args['selected_cats'] = wp_get_object_terms( $post_id, $taxonomy, array_merge( $args, array( 'fields' => 'ids' ) ) );
+        } else {
+            $args['selected_cats'] = array();
+        }
+
+        if ( is_array( $parsed_args['popular_cats'] ) ) {
+            $args['popular_cats'] = array_map( 'intval', $parsed_args['popular_cats'] );
+        } else {
+            $args['popular_cats'] = get_terms(
+                array(
+                    'taxonomy'     => $taxonomy,
+                    'fields'       => 'ids',
+                    'orderby'      => 'count',
+                    'order'        => 'DESC',
+                    'number'       => 10,
+                    'hierarchical' => false,
+                )
+            );
+        }
+
+        if ( $descendants_and_self ) {
+            $categories = (array) get_terms(
+                array(
+                    'taxonomy'     => $taxonomy,
+                    'child_of'     => $descendants_and_self,
+                    'hierarchical' => 0,
+                    'hide_empty'   => 0,
+                )
+            );
+            $self       = get_term( $descendants_and_self, $taxonomy );
+            array_unshift( $categories, $self );
+        } else {
+            $categories = (array) get_terms(
+                array(
+                    'taxonomy' => $taxonomy,
+                    'get'      => 'all',
+                )
+            );
+        }
+
+        // check if category is printable check privilege
+        $newCat = [];
+        foreach($categories as $cat){
+            if(current_user_can('manage_staff_profile_for_'.$cat->slug)){
+                $newCat[] = $cat;
+            }
+        }
+        $categories = $newCat;
+        $output = '';
+
+        if ( $parsed_args['checked_ontop'] ) {
+            // Post-process $categories rather than adding an exclude to the get_terms() query
+            // to keep the query the same across all posts (for any query cache).
+            $checked_categories = array();
+            $keys               = array_keys( $categories );
+
+            foreach ( $keys as $k ) {
+                if ( in_array( $categories[ $k ]->term_id, $args['selected_cats'], true ) ) {
+                    $checked_categories[] = $categories[ $k ];
+                    unset( $categories[ $k ] );
+                }
+            }
+
+            // Put checked categories on top.
+            $output .= $walker->walk( $checked_categories, 0, $args );
+        }
+        // Then the rest of them.
+        $output .= $walker->walk( $categories, 0, $args );
+
+        if ( $parsed_args['echo'] ) {
+            echo $output;
+        }
+
+        return $output;
+    }
+
+
+    function staff_member_popular_terms_checklist( $taxonomy, $default_term = 0, $number = 10, $display = true ) {
+        $post = get_post();
+
+        if ( $post && $post->ID ) {
+            $checked_terms = wp_get_object_terms( $post->ID, $taxonomy, array( 'fields' => 'ids' ) );
+        } else {
+            $checked_terms = array();
+        }
+
+        $terms = get_terms(
+            array(
+                'taxonomy'     => $taxonomy,
+                'orderby'      => 'count',
+                'order'        => 'DESC',
+                'number'       => $number,
+                'hierarchical' => false,
+            )
+        );
+
+        $tax = get_taxonomy( $taxonomy );
+
+        $popular_ids = array();
+        error_log(json_encode(wp_get_current_user()->roles));
+        foreach ( (array) $terms as $term ) {
+            if(!current_user_can('manage_staff_profile_for_'.$term->slug))
+                continue;
+            $popular_ids[] = $term->term_id;
+            error_log('manage_staff_profile_for_'.$term->slug);
+            if ( ! $display ) { // Hack for Ajax use.
+                continue;
+            }
+
+            $id      = "popular-$taxonomy-$term->term_id";
+            $checked = in_array( $term->term_id, $checked_terms, true ) ? 'checked="checked"' : '';
+            ?>
+
+            <li id="<?php echo $id; ?>" class="popular-category">
+                <label class="selectit">
+                    <input id="in-<?php echo $id; ?>" type="checkbox" <?php echo $checked; ?> value="<?php echo (int) $term->term_id; ?>" <?php disabled( ! current_user_can( $tax->cap->assign_terms ) ); ?> />
+                    <?php
+                    /** This filter is documented in wp-includes/category-template.php */
+                    echo esc_html( apply_filters( 'the_category', $term->name, '', '' ) );
+                    ?>
+                </label>
+            </li>
+
+            <?php
+        }
+        return $popular_ids;
+    }
     //meta box Select Template
     public function staff_templates_cbo( $post ) {
 
@@ -53,7 +334,6 @@ class ABCFSL_MBox_Item {
     }
 
     public function save_post( $postID ) {
-        die('hahahahahahahaha');
         $obj = ABCFSL_Main();
         $slug = $obj->pluginSlug;
 
