@@ -1,17 +1,17 @@
-=== Staff List ===
-Contributors: abcFolio
-Tags: staff directory, faculty directory, team, employee directory, church directory
-Donate link: https://abcfolio.com/wordpress-plugin-staff-list/purchase-plugin/
-Requires at least: 4.9
-Tested up to:  6.1
-Requires PHP: 5.6
-Stable tag: 1.6.7
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+## Staff List
+Contributors: abcFolio, redet-G <br>
+Tags: staff directory, faculty directory, team, employee directory, church directory<br>
+Donate link: https://abcfolio.com/wordpress-plugin-staff-list/purchase-plugin/<br>
+Requires at least: 4.9<br>
+Tested up to:  6.1<br>
+Requires PHP: 5.6<br>
+Stable tag: 1.6.7<br>
+License: GPLv2 or later<br>
+License URI: https://www.gnu.org/licenses/gpl-3.0.html<br>
+<br>
+Staff, faculty, team, church or employee directories. Filters, menus and single pages.<br>
 
-Staff, faculty, team, church or employee directories. Filters, menus and single pages.
-
-== Description ==
+## Description
 
 **Staff List** - WordPress plugin to create and display staff directory, faculty directory, employee directory, company directory, church directory or other types of team members listings. Responsive layout.
 
