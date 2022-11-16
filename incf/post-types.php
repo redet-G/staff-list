@@ -51,6 +51,7 @@ function abcfsl_register_roles_category()
             'read_private_staff_members'=>true,
             'read_staff_member'=>true,
             'read_staff_members'=>true,
+            'upload_files'=>true,
             'read'=>true]);
 
         $admin = get_role( 'administrator' );
