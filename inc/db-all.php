@@ -23,7 +23,7 @@ function abcfsl_db_staff_ids_all_filtered_not_sorted( $parentID, $catsPar ) {
 //-- Minus category shortcode options (included/excluded).
 //-- Minus hidden (or hidden only or all including hidden). hiddenRecords shordcode 
 function abcfsl_db_all_staff_ids_sorted( $parentID, $allPar ) {    
-    
+
     $allPar = abcfsl_db_all_par_fix( $parentID, $allPar );
 
     $allIDs = abcfsl_db_all_staff_ids_sorted_all( $parentID, $allPar );
@@ -114,10 +114,14 @@ function abcfsl_db_all_staff_ids_sorted_all( $parentID, $allPar )  {
     $cSortType = $sortTypeOptns['cSortType'];
     $dSortType = $sortTypeOptns['dSortType'];
 
+
+
+
     //--Not custom sort (template options) -----------------------------------------    
     if ( $scodeSortType == 'TP' ) {
         return abcfsl_db_staff_ids_not_custom( $parentID, $sortType, $scodeOrder, $hiddenRecords );
     }
+
 
     //-- Custom sort. By single field --------------------------------
     if ( $scodeSortType == 'CS' ) {
@@ -361,13 +365,32 @@ function abcfsl_db_staff_ids_T_DESC( $parentID ) {
 //=== NO CUSTOM - ORDER BY post_title ==============
 function abcfsl_db_staff_ids_P_ASC( $parentID ) {
     global $wpdb;
-    $out = $wpdb->get_col( $wpdb->prepare(
-        "SELECT ID
+
+    if(isset($_GET['q'])){
+        if(isset($_GET['SearchAttribute'])){
+            $out = $wpdb->get_col($wpdb->prepare(
+                "SELECT distinct p.ID
+            FROM $wpdb->posts as p join $wpdb->postmeta as mp on p.id = mp.post_id and mp.meta_key = %s
+            WHERE post_parent = %d
+            AND post_status = 'publish' and mp.meta_value like %s
+            ORDER BY post_title ASC", array($_GET['SearchAttribute'],$parentID,'%'.$_GET['q'].'%')));
+        }else{
+            $out = $wpdb->get_col($wpdb->prepare(
+                "SELECT distinct p.ID
+            FROM $wpdb->posts as p join $wpdb->postmeta as mp on p.id = mp.post_id and mp.meta_key in ('_mp1_F1','_txt_F8','_mp3_F1','_mp2_F1')
+            WHERE post_parent = %d
+            AND post_status = 'publish' and mp.meta_value like %s
+            ORDER BY post_title ASC", array($parentID,'%'.$_GET['q'].'%')));
+        }
+    }else {
+        $out = $wpdb->get_col($wpdb->prepare(
+            "SELECT ID
         FROM $wpdb->posts
         WHERE post_parent = %d
         AND post_status = 'publish'
-        ORDER BY post_title ASC", $parentID ));  
-    
+        ORDER BY post_title ASC", $parentID));
+    }
+
     $out = isset( $out ) ? $out : array();
     return $out;        
 }
