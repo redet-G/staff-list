@@ -43,6 +43,8 @@ function abcfsl_register_roles_category()
             'delete_published_staff_members'=>true,
             'delete_private_staff_members'=>true,
             'edit_private_staff_members'=>true,
+            'delete_others_staff_members'=>true,
+            'edit_others_staff_members'=>true,
             'edit_published_staff_members'=>true,
             'edit_staff_member'=>true,
             'edit_staff_members'=>true,

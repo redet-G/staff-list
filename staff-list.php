@@ -223,6 +223,8 @@ final class ABCF_Staff_List {
 
         add_action( 'restrict_manage_posts', array( $this, 'add_filter_parent_tplate' ) );
         add_action( 'restrict_manage_posts', array( $this, 'add_filter_category' ), 10, 1 );
+        
+        add_action('pre_get_posts', array( $this, 'filter_posts_by_user_role_category'));
         add_filter( 'parse_query', array( $this, 'filter_by_parent_tplate') );
 
         add_filter( 'post_row_actions', array( $this, 'filter_remove_post_edit_links' ), 10, 1 );
@@ -522,6 +524,35 @@ final class ABCF_Staff_List {
             }
         }
     }
+    
+
+
+
+    function filter_posts_by_user_role_category($query) {
+        // Check if we're in the admin and on the right post type
+        if (is_admin() && $query->is_main_query() && $query->get('post_type') === 'cpt_staff_lst_item') {
+            // Get the current user's role
+            $current_user = wp_get_current_user();
+            $roles =  $current_user->roles;
+            $user_role = [];
+            if (!current_user_can('administrator')) {
+            foreach( $roles as $role ){
+                $user_role[] = str_replace('staff_profile_manager_for_', '', strtolower($role));
+            }
+    
+            if ($user_role) {
+                // Adjust the query to match posts with a category of the same name as the user role
+                $query->set('tax_query', [
+                    [
+                        'taxonomy' => 'tax_staff_member_cat', // Replace with your custom taxonomy if needed
+                        'field'    => 'slug',
+                        'terms'    => $user_role, // Match the user role with the category slug
+                    ],
+                ]);
+            }
+            }
+        }
+    }
 
     //Staff admin table category filter. Single taxonomy (staff categories).
     function add_filter_category( $post_type ){
@@ -530,7 +561,25 @@ final class ABCF_Staff_List {
 
         $taxSlug = 'tax_staff_member_cat';
         $taxonomy = get_taxonomy( $taxSlug );
+         
+         $categories = get_terms( ['taxonomy'   => $taxSlug,
+        'hide_empty' => false,] );
+    
+        $current_user = wp_get_current_user();
+        $roles =  $current_user->roles;
+        
         $selected = '';
+        
+        $include = array();
+        foreach( $roles as $role ){
+            $role_slug = str_replace('staff_profile_manager_for_', '', strtolower($role));
+            foreach( $categories as $category ){
+                if( $category->slug == $role_slug ){
+                    $include[] = $category->term_id;
+                }
+            }
+            $selected=$role_slug;
+        }
         // if the current page is already filtered, get the selected term slug
         $selected = isset( $_REQUEST[ $taxSlug ] ) ? $_REQUEST[ $taxSlug ] : '';
         // Render a dropdown
@@ -542,7 +591,8 @@ final class ABCF_Staff_List {
             'value_field'     =>  'slug',
             'selected'        =>  $selected,
             'hierarchical'    =>  true,
-            'show_count'      =>  1
+            'show_count'      =>  1,
+            'include'         => $include
         ) );
     }
 
